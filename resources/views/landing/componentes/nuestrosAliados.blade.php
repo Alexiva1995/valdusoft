@@ -35,7 +35,7 @@
                 $count1++;
             @endphp
               <a class="item @if($count1 == 1) active @endif" data-tab="{{'tab'.$count1}}">
-                    <img class="ui middle aligned mini circular image" src="{{asset('assets/img/sistema/Grupo-106.png')}}">
+                    <img class="ui middle aligned mini circular image" src="assets/img/allys-logo/{{$ally->logo}}">
                     <span>
                         <h5 class="">
                             {{$ally->name}}
@@ -61,7 +61,7 @@
             @endphp
             <div class="ui bottom attached tab segment @if($count2 == 1) active @endif" data-tab="{{'tab'.$count2}}">
                 <div class="header_tap">
-                    <img class="ui middle aligned tiny circular image" src="{{asset('assets/img/sistema/Grupo-106.png')}}">
+                    <img class="ui middle aligned tiny circular image" src="assets/img/allys-logo/{{$ally->logo}}">
                     <h2 class="ui header text-purple-dark">{{$ally->name}}</h2>
                 </div>
                 @if($ally->description == null)
