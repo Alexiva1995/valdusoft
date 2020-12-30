@@ -40,10 +40,13 @@
                         <h5 class="">
                             {{$ally->name}}
                             <br>
+                            
+                        
                             @if($ally->description == null)
                             <small class="">Lorem ipsum dolor sit amet consec</small>
                             @else
-                            <small class="">{{$ally->description}}</small>
+
+                            <small class="">{{Str::limit($ally->description, 31)}}</small>
                             @endif
                         </h5>
                     </span>
