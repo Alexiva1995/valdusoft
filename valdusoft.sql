@@ -49,7 +49,7 @@ CREATE TABLE `allies` (
 
 LOCK TABLES `allies` WRITE;
 /*!40000 ALTER TABLE `allies` DISABLE KEYS */;
-INSERT INTO `allies` VALUES (1,'Índigo marketing','Agencia de Marketing en Córdoba','indigo-log.png',NULL,NULL),(2,'Efranet','Web Hosting, VPS, Dedicados','efranet-inicio2.png',NULL,NULL),(3,'Minka brand','Estudio de Branding y Comunicación','minka-logo.png',NULL,NULL),(4,'Bisonte',NULL,'Grupo-106.png',NULL,NULL),(5,'Sinergia','El Resultado siempre es mayor a la suma de las partes','logo_sinergia.png',NULL,NULL),(6,'Valdusoft','¡LO QUE IMAGINAS ES POSIBLE!\n','Grupo-106.png',NULL,NULL),(7,'Smartbunny','reamos ideas originales que tienen sentido para su negocio.','smart-bunny.png',NULL,NULL);
+INSERT INTO `allies` VALUES (1,'Índigo marketing','Agencia de Marketing en Córdoba','indigo.png',NULL,NULL),(2,'Efranet','Web Hosting, VPS, Dedicados','efranet.png',NULL,NULL),(3,'Minka brand','Estudio de Branding y Comunicación','minka.png',NULL,NULL),(4,'Bisonte',NULL,'Grupo-106.png',NULL,NULL),(5,'Sinergia','El Resultado siempre es mayor a la suma de las partes','sinergia.png',NULL,NULL),(6,'Valdusoft','¡LO QUE IMAGINAS ES POSIBLE!\n','Grupo-106.png',NULL,NULL),(7,'Smartbunny','Creamos ideas originales que tienen sentido para su negocio.','smart_bunny.png',NULL,NULL);
 /*!40000 ALTER TABLE `allies` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -263,4 +263,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-12-29 16:20:13
+-- Dump completed on 2020-12-30 17:14:31
